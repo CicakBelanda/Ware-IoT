@@ -1,3 +1,8 @@
+import instagramImg from "../icons/instagram.svg";
+import facebookImg from "../icons/facebook.svg";
+import xImg from "../icons/twitter-x.svg";
+import linkedinImg from "../icons/linkedin.svg";
+import youtubeImg from "../icons/youtube.svg";
 
 function Footer() {
   return (
@@ -6,11 +11,21 @@ function Footer() {
         <div className="row">
           <section className="col-5 border-top border-bottom border-end p-3">
             <h4>WareIoT</h4>
-            <a href="https://www.instagram.com/">IG</a>
-            <a href="https://www.facebook.com/">FB</a>
-            <a href="https://www.x.com/">X</a>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-            <a href="https://www.youtube.com/">YT</a>
+            <a href="https://www.instagram.com/" aria-label="instagram" className="px-2">
+              <img src={instagramImg} alt="Instagram"></img>
+            </a> 
+            <a href="https://www.facebook.com/" aria-label="facebook" className="px-2">
+              <img src={facebookImg} alt="Facebook"></img>
+            </a>
+            <a href="https://www.x.com/" aria-label="x" className="px-2">
+              <img src={xImg} alt="X"></img>
+            </a>
+            <a href="https://www.linkedin.com/" aria-label="linkedin" className="px-2">
+              <img src={linkedinImg} alt="LinkedIn"></img>
+            </a>
+            <a href="https://www.youtube.com/" aria-label="youtube" className="px-2">
+              <img src={youtubeImg} alt="Youtube"></img>
+            </a>
           </section>
 
           <section className="col border-top border-bottom border-start p-3">
