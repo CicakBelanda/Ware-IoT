@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #1f2937;
+    color: white;
+}
+
+.contact-us h2 {
+    color: #e5e7eb;
+}
+
+.contact-us p {
+    color: #9ca3af;
+}
+
+.location-item {
+    background-color: #374151;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-us .card {
+    background-color: #f3f4f6;
+}
+
+/* FAQ Section */
+.faq {
+    background-color: #111827;
+}
+
+.faq h2 {
+    color: white;
+}
+
+.accordion-button {
+    background-color: #374151;
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #1f2937;
+    color: white;
+}
+
+.accordion-body {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}

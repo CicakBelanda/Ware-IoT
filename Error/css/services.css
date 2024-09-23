@@ -1,0 +1,27 @@
+/* Hero Section */
+.hero-section {
+    background: url('../external/warehouse.webp') center/cover no-repeat;
+}
+
+/* Focus Section */
+.focus-section .card {
+    background-color: #f8f9fa;
+}
+
+/* Services Icons */
+.icon-box {
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.icon-box i {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
